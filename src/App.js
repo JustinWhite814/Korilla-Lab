@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Receipt from './Components/Receipt'
+import Receipts from './Components/Receipts'
 
 
 const initialState = [
@@ -57,15 +57,13 @@ function App() {
 
 
    
-  
-  
   return (
     <>
       <header>
         <h1 className="name">Korilla</h1>
       </header>
       <main >
-        <Receipt receipt={receipts} setReceipts={setReceipts} />    
+        <Receipts receipt={receipts} setReceipts={setReceipts} />    
       </main>
     </>
   );
