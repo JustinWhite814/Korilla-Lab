@@ -62,7 +62,7 @@ function App() {
       <header>
         <h1 className="name">Korilla</h1>
       </header>
-      <main >
+      <main>
         <Receipts receipt={receipts} setReceipts={setReceipts} />    
       </main>
     </>
